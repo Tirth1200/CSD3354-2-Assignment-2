@@ -13,12 +13,14 @@ namespace DelegatesAndEvents
     {
         static void Main(string[] args)
         {
+            DelegateExercises de = new DelegateExercises();
+            de.Method2();
         }
     }
     public class DelegateExercises
     {
         public delegate void MyDelegate();
-        void Method1()
+        public void Method1()
         {
             Console.WriteLine("Method1");
             Console.ReadLine();
