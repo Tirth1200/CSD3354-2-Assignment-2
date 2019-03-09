@@ -17,6 +17,7 @@ namespace DelegatesAndEvents
             de.Method2(50);
         }
     }
+
     public class DelegateExercises
     {
         public delegate void MyDelegate(int i);
